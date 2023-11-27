@@ -1,0 +1,17 @@
+.home {
+    background-color: darkgray;
+    width: 95%;
+    margin: 1rem 1rem;
+}
+
+@media(max-width: 460px) {
+    .home {
+        width: 70%;
+    }
+}
+
+@media(max-width: 770px) {
+    .home {
+        width: 80%;
+    }
+}
