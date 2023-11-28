@@ -4,6 +4,14 @@
     margin: 1rem 1rem;
 }
 
+.title {
+    margin-left: 0.5rem;
+}
+
+.subtitle {
+    margin-left: 0.5rem;
+}
+
 @media(max-width: 460px) {
     .home {
         width: 70%;
