@@ -16,9 +16,30 @@
     border: 1px solid #000000;
 }
 
+button {
+    margin-bottom: 0.5rem;
+    color: cadetblue !important;
+}
+
 .table {
     width: 100%;
     background-color: darkgrey;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border: 1px solid #000000;
+}
+.livros {
+    color: rgb(73, 73, 73);
+    margin-left: .5rem;
+}
+.edit {
+    color: rgb(65, 63, 63);
+}
+
+.delete {
+    color: rgb(226, 50, 50);
+    
+}
+
+.mat-header {
+    width: 5rem;
 }
