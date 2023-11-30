@@ -7,14 +7,19 @@
 
 .sidenav {
     background-color: rgb(54, 54, 54);
-    
 }
 
 i {
     padding-right: .4rem;
     padding-top: .5rem;
+    margin-bottom: 12px;
 }
 
 img {
-    height: 2rem;
+    height: 1.5rem;
+    vertical-align: middle;
+}
+
+a {
+    border-radius: 5px;
 }

@@ -11,9 +11,8 @@ h1 {
     border: 1px solid black;
     font-size: larger;
     font-weight: 500;
-    margin-bottom: 3rem
-    ;
-
+    margin-bottom: 3rem;
+    border-radius: 5px;
 }
 
 .form {
