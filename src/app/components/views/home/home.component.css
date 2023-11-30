@@ -2,6 +2,11 @@
     background-color: rgb(149, 149, 149);
     width: 95%;
     margin: 1rem 1rem;
+    transition: filter 0.1s ease-in-out;
+}
+
+.home:hover {
+    filter: brightness(1.1);
 }
 
 .title {
