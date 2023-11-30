@@ -18,12 +18,21 @@ export class CategoriaService {
   findAll() : Observable<Categoria[]> {
     const url = `${this.apiUrl}/categorias`
     return this.Http.get<Categoria[]>(url)
+  }
 
+  findById(id: String): Observable<Categoria> {
+    const url = `${this.apiUrl}/categorias/${id}`
+    return this.Http.get<Categoria>(url)
   }
 
   create(categoria: Categoria): Observable<Categoria>{
     const url =`${this.apiUrl}/categorias`
     return this.Http.post<Categoria>(url, categoria);
+  }
+
+  delete(id: String): Observable<void> {
+    const url = `${this.apiUrl}/categorias/${id}`
+    return this.Http.delete<void>(url)
   }
 
   mensagem(str: String): void {
