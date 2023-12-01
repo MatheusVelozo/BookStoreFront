@@ -1,0 +1,40 @@
+form {
+    text-align: center;
+    width: 70%;
+    margin: 2rem auto 0 auto;
+
+}
+
+h1 {
+    color: burlywood;
+    background-color: rgb(67, 68, 68);
+    border: 1px solid black;
+    font-size: larger;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    border-radius: 5px;
+}
+
+.form {
+    width: 100%;
+}
+
+.buttons {
+    width: 100%;
+    text-align: start;
+}
+
+.buttonEdit {
+    color: cadetblue !important;
+}
+
+.buttonCancel {
+    color: rgb(112, 40, 40) !important;
+}
+
+button {
+    margin-right: .5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border: black;
+}
