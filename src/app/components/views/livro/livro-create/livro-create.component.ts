@@ -49,6 +49,6 @@ export class LivroCreateComponent implements OnInit{
     if (this.titulo.invalid) {
       return "Campo Obrigatório.";
     }
-    return false;
+    return true;
   }
 }
