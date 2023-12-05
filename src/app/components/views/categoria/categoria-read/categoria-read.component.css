@@ -1,16 +1,18 @@
 .content {
     width: 90%;
     margin: 1.4rem auto auto auto;
+    
 }
 
 .title {
     text-align: center;
     margin-bottom: 3rem;
+    
 }
 
 .title h1 {
     font-size: 1.5rem;
-    background-color: rgb(52, 52, 52);
+    background-color: rgba(56, 56, 56, 0.7);
     color: rgb(207, 166, 113);
     font-weight: 500;
     border: 1px solid #000000;
@@ -20,20 +22,30 @@
 button {
     margin-bottom: 0.5rem;
     color: cadetblue !important;
+    background-color: rgba(56, 56, 56, 0.5);
 }
 
 .table {
     width: 100%;
-    background-color: darkgrey;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(56, 56, 56, 0.3);
     border: 1px solid #000000;
+    border-radius: 5px; 
+    color: white;
+    
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
 }
+
+
 .livros {
-    color: rgb(73, 73, 73);
+    color: rgb(0, 0, 0);
     margin-left: .5rem;
 }
+
 .edit {
-    color: rgb(65, 63, 63);
+    color: rgb(0, 0, 0);
 }
 
 .delete {

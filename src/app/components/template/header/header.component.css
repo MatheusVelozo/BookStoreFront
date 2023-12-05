@@ -1,21 +1,13 @@
-img {
-    height: 3rem;
-}
-
 .header {
     justify-content: center;
-    background-color: rgb(54, 54, 54);
+    border: none;
     color: burlywood;
-    font-size: 1.5rem;
     height: 10%;
-}
+    overflow: hidden;
 
-span {
-    display: flex;
-    align-items: center;
-}
-
-h1 {
-    padding-left: 1rem;
-    
+.custom-font {
+        font-family: 'Junge', sans-serif;
+        font-size: 40px;
+        font-weight: bolder;
+      }
 }

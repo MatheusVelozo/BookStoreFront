@@ -7,7 +7,7 @@ form {
 
 h1 {
     color: burlywood;
-    background-color: rgb(67, 68, 68);
+    background-color: rgba(56, 56, 56, 0.7);
     border: 1px solid black;
     font-size: larger;
     font-weight: 500;
@@ -26,10 +26,12 @@ h1 {
 
 .buttonEdit {
     color: cadetblue !important;
+    background-color: rgba(56, 56, 56, 0.8);
 }
 
 .buttonCancel {
-    color: rgb(112, 40, 40) !important;
+    color: rgb(177, 44, 44) !important;
+    background-color: rgba(56, 56, 56, 0.8);
 }
 
 button {

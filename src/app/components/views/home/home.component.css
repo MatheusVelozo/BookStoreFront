@@ -1,20 +1,21 @@
 .home {
-    background-color: rgb(149, 149, 149);
     width: 95%;
+    height: 50%;
     margin: 1rem 1rem;
     transition: filter 0.1s ease-in-out;
-}
-
-.home:hover {
-    filter: brightness(1.1);
+    background-color: rgba(0, 0, 0, 0.8);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.934), rgba(17, 17, 17, 0.276));
+    border: none;
+    text-align: center;
 }
 
 .title {
     margin-left: 0.5rem;
+    font-size: 30px;
 }
 
 .subtitle {
-    margin-left: 0.5rem;
+    margin-bottom: 3px;
 }
 
 @media(max-width: 460px) {
